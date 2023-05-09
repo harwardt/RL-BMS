@@ -17,11 +17,13 @@ To execute the hyperparameter optimization in parallel the following needs to be
 1. Start the mongod server in a terminal: 
 
         mongod --dbpath . --port 1234 --directoryperdb --journal
+        
 2. Open a new terminal to run the hyperparameter optimization in with 
 
         from optimize_parallel import optimize_ppo 
         optimize_ppo() 
 The program stops without executing any trials. To run trials stept 3 is necessary.
+
 3. For an execution of n trials in parallel repeat the following n times: 
 start a new terminal and run
 
