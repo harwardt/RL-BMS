@@ -1,0 +1,4 @@
+num_cells: 5
+charging: True
+total_timesteps_training: 6000000
+length_reference_run: 4500 #4500 for charging, 2600 for discharging
