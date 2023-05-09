@@ -2,7 +2,7 @@
 Code used for the paper 'Lithium-Ion Battery Management System with Reinforcement Learning for Balancing State of Charge and Cell Temperature'. Please read the paper for further information.
 
 # Dependencies
-A conda environment with all necessary dependencies can be set up with `env_RL_BMS.yml`.
+A conda environment with all necessary dependencies can be set up with `environment.yml`.
 
 # Battery Model
 The folder `batterymodel` contains `cell.py` for the implementation of a cell and `battery.py` for a battery pack with multiple cells. The implementation follows the modified Shepherd model. The file `battery.py` already includes code necessary for the simulated usage of an active battery management system.
